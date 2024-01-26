@@ -5,10 +5,9 @@
     <title>Title</title>
 </head>
 <body>
- <form enctype="multipart/form-data" method="post" action="http://localhost:8000/processing/">
-     {% csrf_token%}
+ <form enctype="multipart/form-data" method="post" action="/processing/">
             <p>
-                <input type="file" name="video1" />
+                <input type="file" name="file" />
             </p>
             <p>
                 <input type="submit" value="Отправить" />
